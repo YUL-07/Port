@@ -1,0 +1,239 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+/* 초기설정 */
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Eng {
+    font-family: 'Playfair Display', serif;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+
+/* 초기설정 */
+
+
+/*기본설정*/
+
+.s0 {
+    background-image: url(../image/background_2560.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.s1 {
+    background-image: url(../image/background_2_2560.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.s2 {
+    background-image: url(../image/background_3_2560.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.s3 {
+    background-image: url(../image/background_4_2560.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#fp-nav ul li a span {
+    background-color: #fff;
+}
+
+
+/*기본설정*/
+
+
+/*memu,header 설정*/
+
+div#modal {
+    position: fixed;
+    z-index: 7;
+    display: none;
+}
+
+div#cls>i {
+    float: left;
+    z-index: 7;
+    margin-top: 50vh;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+div#memu {
+    position: absolute;
+    margin-top: 50vh;
+    margin-left: 30px;
+    color: #000;
+    cursor: pointer;
+    z-index: 9;
+}
+
+div#memu i.material-icons {
+    font-size: 45px;
+}
+
+div#memu #memuOn {
+    position: absolute;
+    display: none;
+}
+
+nav#gnb {
+    width: 570px;
+    height: 100vh;
+    background-color: #c9ba9d;
+}
+
+nav#gnb>ul {
+    float: right;
+    list-style: none;
+    margin-top: 0;
+}
+
+nav#gnb>ul li.mainLi {
+    display: block;
+    width: 450px;
+    height: 25vh;
+    text-align: center;
+    cursor: pointer;
+}
+
+nav#gnb>ul>li.mainLi>a {
+    font-size: 53px;
+    font-style: oblique;
+    color: #3a3a3a;
+    line-height: 25vh;
+}
+
+nav#gnb>ul>li.mainLi:hover a {
+    font-weight: bold;
+    color: #fedab6;
+}
+
+
+/* nav#gnb 끝 */
+
+
+/* header#header 시작 */
+
+header#header {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    z-index: 6;
+}
+
+header#header div#logo {
+    position: absolute;
+    z-index: 8;
+    margin-left: 45vw;
+    margin-top: 10px;
+}
+
+header#header div#logo img {
+    width: 12vw;
+    height: 10vh;
+}
+
+
+/* header#header 끝 */
+
+
+/*memu,header 설정*/
+
+.s0 p {
+    margin-top: 30vh;
+    margin-left: 15vw;
+    width: 70vw;
+    height: 50vh;
+    line-height: 50vh;
+    font-size: 150px;
+    text-align: center;
+    color: #facea2;
+    border: 10px solid #facea2;
+}
+
+.section .tbl {
+    width: 75vw;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 30vh;
+}
+
+.section .tbl .tblUl {
+    width: 35vw;
+    height: 40vh;
+    float: left;
+}
+
+.section .tbl .tblUl li {
+    margin-top: 10px;
+}
+
+.section .tbl .PageN {
+    font-size: 5vmin;
+    line-height: 5vmin;
+    padding-left: 5px;
+    color: #9a9a9a;
+    font-style: italic;
+}
+
+.section .tbl .WebN {
+    font-size: 3vmin;
+    padding-left: 10px;
+}
+
+.section .tbl .SubN {
+    font-size: 2vmin;
+    padding-left: 10px;
+}
+
+.section .tbl .BlankN {
+    display: inline-block;
+    width: 15vw;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 1px solid #c9ba9d;
+}
+
+.section .tbl .BlankN:hover {
+    background-color: #c9ba9d;
+}
+
+.section .tbl .BlankA {
+    font-size: 20px;
+    color: #000;
+}
+
+.section .tbl .BlankN:hover>.BlankA {
+    color: #fff;
+}
+
+.section .tbl img {
+    width: 38vw;
+    height: 54vh;
+    float: right;
+}

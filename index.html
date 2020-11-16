@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style/fullpage.min.css" />
+    <link rel="stylesheet" href="style/css.css" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <div id="modal">
+        <div id="fix">
+            <div id="cls">
+
+                <i class="material-icons" style="font-size:40px">close</i>
+            </div>
+            <!-- cls -->
+
+            <nav id="gnb">
+                <ul>
+                    <li class="mainLi"><a href="#Info" class="Eng">HOME</a></li>
+                    <li class="mainLi"><a href="#vintageFilm" class="Eng">VINTAGE FILM</a></li>
+                    <li class="mainLi"><a href="#ReVintage" class="Eng">RE VINTAGE</a></li>
+                    <li class="mainLi"><a href="#portfolio" class="Eng">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- fix -->
+    </div>
+    <!-- modal -->
+
+    <header id="header">
+
+        <div id="memu">
+            <i class="material-icons" id="memuOff">menu</i>
+            <i class="material-icons" id="memuOn">clear_all</i>
+        </div>
+
+        <div id="logo">
+            <a href="#">
+                <img src="image/LOGO_3.png" alt="logo">
+            </a>
+        </div>
+    </header>
+
+
+    <div id="full-page">
+        <div class="section s0" id="Info">
+            <p class="Eng">PORTFOLIO</p>
+        </div>
+
+        <div class="section s1" id="vintageFilm">
+            <div class="tbl">
+                <ul class="tblUl">
+                    <li class="Eng PageN">Vintage Film</li>
+                    <li class="Eng WebN">PC WEBSITE </li>
+                    <li class="SubN">메인 페이지, 서브페이지, 로그인,가입 페이지</li>
+                    <li class="SubN">슬라이드 쇼, 탭, 모달</li>
+                    <li class="Eng BlankN">
+                        <a href="http://yul07.dothome.co.kr/HTML/index.html" target="_blank" class="BlankA">VIEW WEBSITE</a>
+                    </li>
+                    <li class="Eng BlankN">
+                        <a href="http://yul07.dothome.co.kr/HTML/ml_login.html" target="_blank" class="BlankA">VIEW LOGIN</a>
+                    </li>
+                    <li class="Eng BlankN">
+                        <a href="http://yul07.dothome.co.kr/HTML/nn_news.html" target="_blank" class="BlankA">VIEW SUB</a>
+                    </li>
+                    <li class="Eng BlankN">
+                        <a href="https://github.com/YUL-07/VintageFile.git" target="_blank" class="BlankA">VIEW CODE</a>
+                    </li>
+                </ul>
+                <img src="image/vf_pc.png" alt="vintagefilmPC">
+            </div>
+        </div>
+        <div class="section s2" id="ReVintage">
+            <div class="tbl">
+                <ul class="tblUl">
+                    <li class="Eng PageN">RE Vintage</li>
+                    <li class="Eng WebN">RESPONSIVE WEBSITE</li>
+                    <li class="Eng SubN">PC VER, TABLET VER, PHONE VER</li>
+                    <li class="SubN">슬라이드 쇼, 탭, 모달</li>
+                    <li class="Eng BlankN">
+                        <a href="http://yul07.dothome.co.kr/wave/home.html" target="_blank" class="BlankA">VIEW WEBSITE</a>
+                    </li>
+                    <li class="Eng BlankN">
+                        <a href="https://github.com/YUL-07/Revintage.git" target="_blank" class="BlankA">VIEW CODE</a>
+                    </li>
+                </ul>
+                <img src="image/rvf_pc.PNG" alt="RevintagefilmPC">
+            </div>
+        </div>
+
+        <div class="section s3" id="portfolio">
+            <div class="tbl">
+                <ul class="tblUl">
+                    <li class="Eng PageN">PORTFOLIO</li>
+                    <li class="Eng WebN">PC WEBSITE</li>
+                    <li class="Eng SubN">PC VER</li>
+                    <li class="SubN">이미지 제작, GNB</li>
+                    <li class="Eng BlankN">
+                        <a href="#" target="_blank" class="BlankA">VIEW WEBSITE</a>
+                    </li>
+                    <li class="Eng BlankN">
+                        <a href="https://github.com/YUL-07/Portfolio_fullpage.git" target="_blank" class="BlankA">VIEW CODE</a>
+                    </li>
+                </ul>
+                <img src="image/por_cut.png" alt="portfolioPC">
+            </div>
+        </div>
+    </div>
+    <script src="library/jquery-3.5.1.js"></script>
+    <script src="script/script.js"></script>
+    <script src="OPEN-SOURCE-GPLV3-LICENSE"></script>
+    <script src="script/fullpage.min.js"></script>
+
+    <script>
+        new fullpage('#full-page', {
+            licenseKey: '',
+            navigation: true,
+            navigationTooltips: ['Info', 'VintageFlim', 'Revintage', 'Portfolio'],
+            scrollingSpeed: 2000
+        });
+    </script>
+
+</body>
+
+</html>
