@@ -9,7 +9,13 @@ $(function() {
             "display": "none"
         });
     })
-});
+   });
+   
+$(function(){
+    $(".memuA").click(function(){
+      $(this).attr("data-Link");
+    });
+})
 
 $(function() {
     $("div#memu").mouseover(function() {
